@@ -1,0 +1,9 @@
+body {
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+
+img {
+    padding-left: -15px;
+}
