@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 2rem;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #0081A7;
+    color: #FDFCDC;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+p {
+    margin: 2rem 0 0;
+}
+
+#button {
+    background-color: #F07167;
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: white 2px solid;
+    border-radius: 4px;
+    background: black;
+    transition: 0.1s ease transform;
+    cursor: pointer;
+}
+
+#button:active {
+    transform: translatey(3px);
+}
+
+#punchline {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#error {
+    color: red;
+}
